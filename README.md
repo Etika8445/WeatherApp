@@ -1,4 +1,4 @@
-# Personal Bookshelf
+# Weather Application
 
 This is an interactive Weather Dashboard application built using React.js. The application allows users to search for current weather information by city name and displays key weather details such as temperature, humidity, and wind speed. The design is fully responsive, ensuring a smooth experience across both desktop and mobile devices.
 
