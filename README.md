@@ -2,10 +2,6 @@
 
 This is an interactive Weather Dashboard application built using React.js. The application allows users to search for current weather information by city name and displays key weather details such as temperature, humidity, and wind speed. The design is fully responsive, ensuring a smooth experience across both desktop and mobile devices.
 
-
-![Personal Bookshelf Web Application](bookshelf.png)
-
-
 ## Table of Contents
 
 - [Features](#features)
@@ -13,7 +9,6 @@ This is an interactive Weather Dashboard application built using React.js. The a
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Usage](#usage)
 - [Technology Stack](#technology-stack)
 
 ## Features
@@ -25,7 +20,7 @@ This is an interactive Weather Dashboard application built using React.js. The a
 
 ## Demo
 
-You can view a live demo of the application [here](https://booksmanager.vercel.app/).
+You can view a live demo of the application [here](https://weather-app-one-gules-78.vercel.app/).
 
 ## Prerequisites
 
