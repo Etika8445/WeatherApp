@@ -5,7 +5,6 @@ This is an interactive Weather Dashboard application built using React.js. The a
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
@@ -16,11 +15,6 @@ This is an interactive Weather Dashboard application built using React.js. The a
 - **City Search:** Users can search for current weather information by entering a city name in the search bar.
 - **Weather Details:** The application displays current temperature, humidity, and wind speed for the searched city.
 - **Responsive Design:** The interface is designed to be visually appealing and works well on both desktop and mobile devices.
-
-
-## Demo
-
-You can view a live demo of the application [here](https://weather-app-one-gules-78.vercel.app/).
 
 ## Prerequisites
 
