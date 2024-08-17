@@ -1,0 +1,120 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.Layout-Homepage{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://cdn.wallpapersafari.com/35/15/e35Vwz.jpg");
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
+  /* opacity:0.7; */
+}
+.layout-Card {
+  background-color: rgba(5, 5, 5, 0.8);
+  height: 400px;
+  width: 300px;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 50px;
+  transition: transform 250ms;
+}
+.layout-Card:hover{
+  transition: all 1s ease;
+  /* transform: translateY(-10px); */
+  transform: scale(1.1);
+}
+.layout-Search{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height: 30px;
+  /* background-color: white; */
+  text-align: center;
+
+}
+.layout-Search input{
+  width:200px ;
+  padding-left: 2px;
+
+  /* border-radius: 3%; */
+  outline: none;
+  border: none;
+  height: 30px;
+  /* text-align: center; */
+}
+.input-Search{
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border-left: 2px solid black;
+  background-color: white;
+}
+
+.layout-Details{
+  padding: 5px;
+  padding-top: 20px;
+  width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name-Details{
+  width: 100%;
+  display: flex;
+  font-size:150%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+
+}
+.name-Details img{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.temp-Details{
+    font-size: 300%;
+    margin-top: 7%;
+    font-weight: bolder;
+    margin-bottom: 10%;
+}
+.wind-Details{
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+  font-size:150%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12%;
+
+}
+.wind-Details img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  opacity: 0.5;
+  border-radius:20%;
+}
+
+
+@media (width<=329px){
+  .layout-Card{
+    height: 400px;
+  width: 280px;
+  }
+  .layout-Card:hover{
+    transform: none;
+  }
+}
+@media (width>=1440px){
+  .layout-Card{
+    height: 450px;
+  width: 350px;
+  }
+}
